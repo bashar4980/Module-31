@@ -19,6 +19,9 @@ console.log('use for loop',result);
 const getDesireNum = numbers.filter((item)=> item %10 === 0) ;
 console.log('Use Filter' , getDesireNum);
 
+const getDesireNumFind = numbers.find((item)=> item %10 ===0) ;
+console.log(getDesireNumFind)
+
 
 
 
